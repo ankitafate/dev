@@ -3,3 +3,13 @@ job('samu') {
         shell('echo Hello World !')
     }
 }
+job('puja') {
+    steps {
+        shell('echo Hello puja !')
+    }
+}
+job('manu') {
+    steps {
+        shell('echo Hello manu !')
+    }
+}
