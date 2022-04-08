@@ -1,0 +1,5 @@
+job('samu') {
+    steps {
+        shell('echo Hello World !')
+    }
+}
